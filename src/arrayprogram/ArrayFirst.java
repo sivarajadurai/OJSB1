@@ -1,5 +1,7 @@
 package arrayprogram;
 
+import java.util.Arrays;
+
 public class ArrayFirst {
 
 	public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class ArrayFirst {
 		int a[] = new int[100];
 		float b[] = new float[5];
 		
-		int c[] = {2,5,12,20,5};
+		int c[] = {2,15,12,20,5};
 //		System.out.println(c[0]);
 //		System.out.println(c[1]);
 //		System.out.println(c[2]);
