@@ -31,6 +31,7 @@ public class Area {
 		a.rectangle(3, 4);
 		a.circle(5);
 		a.triangle(12,3.4);
+		
 	}
 
 }
