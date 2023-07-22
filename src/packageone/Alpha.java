@@ -1,12 +1,26 @@
 package packageone;
 
+//final class cannot extend
 public class Alpha {
+	
+	//inner class can be private or protected
+	protected class Reaction{
+		
+	}
+	
+    //private constructor does not allow to create an object outside the class
+	//public constructor can be access to all
+	//Default constructor can be access within the package, whereas other package class does not access
+	public Alpha(){
+		System.out.println("Alpha");
+	}
 
 	void m1() {
 		System.out.println("Default method");
 	}
 	
-	public void m2() {
+	//final method cannot be overridden
+	public final void m2() {
 		System.out.println("Public method");
 	}
 	
