@@ -7,7 +7,9 @@ public class WriteProgram implements Arithmetic,ArrayProgram{
 	
 	void print() {
 		//How to access the ambiguous variable
-		//System.out.println(number);
+		System.out.println(Arithmetic.number);
+		System.out.println(ArrayProgram.number);
+		//value = 12;
 	}
 
 	public static void main(String[] args) {
