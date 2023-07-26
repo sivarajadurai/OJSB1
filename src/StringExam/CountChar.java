@@ -1,4 +1,7 @@
 package StringExam;
+
+import polymorphism.Student;
+
 //Count of each character in a given String
 public class CountChar {
 	
@@ -57,7 +60,7 @@ public class CountChar {
 		s1.reverse();
 		System.out.println(s1);
 		
-		
+		Student st = new Student(100,"Siva");
 		
 		
 	//	Stringbuffer ss = "java";
