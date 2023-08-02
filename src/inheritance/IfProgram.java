@@ -1,4 +1,4 @@
-package inheritance;
+	package inheritance;
 
 
 //Multi level
