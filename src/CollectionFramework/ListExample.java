@@ -7,6 +7,7 @@ import java.util.Vector;
 public class ListExample {
 
 	public static void main(String[] args) {
+		
 		System.out.println("ARRAY LIST");
 		ArrayList al = new ArrayList();
 		al.add(10);
@@ -21,6 +22,7 @@ public class ListExample {
 		System.out.println(al);
 		System.out.println(al.get(0));
 		System.out.println("LINKED LIST");
+		
 		LinkedList ll = new LinkedList();
 		ll.add(10);
 		ll.add(10);
@@ -43,6 +45,8 @@ public class ListExample {
 		v.add(true);
 		v.add(2,"php");
 		v.set(3, "Pradeep");
+		v.add(null);
+		
 		System.out.println(v);
 
 		
